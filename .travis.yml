@@ -2,12 +2,12 @@ sudo: required
 
 language: rust
 rust:
-  - nightly
-  - beta
-  - 1.0.0
-  - 1.1.0
-  - 1.2.0
-  - 1.3.0
+ # - nightly
+#  - beta
+#  - 1.0.0
+#  - 1.1.0
+#  - 1.2.0
+#  - 1.3.0
   - stable
 addons:
   apt:
@@ -18,7 +18,7 @@ env:
     - PIP=pip2
     - PIP=pip3
   global:
-    secure: "JBbvav6WVyWekbpmfhct+/ZnGXbHlk47iev/dQOtjVjcwA+NModsNgaNk2TIyPAKe/jNCXAok+i7Fw0FMQKi3kLthixl9sz2wa4Dv2DkzocHtIxKuwySvxeQsfuOpFzc2tlSI4NHCoACLLW4kyPGW5QOxlox472z8j5F7mvqeQY="
+#    secure: "JBbvav6WVyWekbpmfhct+/ZnGXbHlk47iev/dQOtjVjcwA+NModsNgaNk2TIyPAKe/jNCXAok+i7Fw0FMQKi3kLthixl9sz2wa4Dv2DkzocHtIxKuwySvxeQsfuOpFzc2tlSI4NHCoACLLW4kyPGW5QOxlox472z8j5F7mvqeQY="
 before_script:
   - |
       if [ "$PIP" = pip3 ]; then
