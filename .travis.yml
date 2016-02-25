@@ -11,7 +11,7 @@ env:
   matrix:
     - PIP=pip2
     - PIP=pip3
-  global:
+
 
 before_script:
   - |
